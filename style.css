@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: auto;
+}
+
+.container {
+    width: 1600px;
+    height: 800px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content p {
+    font-size: 20px;
+}
+
+.content button {
+    width: 100px;
+    height: 50px;
+}
+
+.sound {
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    transform: translate(90px, 520px);
+}
+
+.nxtBtn {
+    position: absolute;
+    transform: translate(0px, 350px);
+}
+
+#next {
+    width: 100px;
+    height: 30px;
+}
+
+.new-congrats {
+    text-align: center;
+}
+
+.new-congrats p {
+    font-size: 20px;
+}
+
+.list {
+    text-align: start;
+    font-size: 20px;
+}
+
+.text1 {
+    font-size: 50px;
+    color: red;
+    transform: translate(-400px, 200px);
+}
+
+.text2 {
+    font-size: 50px;
+    color: green;
+    transform: translate(400px, -200px);
+}
+
+.text3 {
+    font-size: 40px;
+    color: rgb(161, 222, 243);
+    transform: translate(-400px, -300px);
+}
+
+.text4 {
+    font-size: 30px;
+}
+
+.new-year-img img {
+    width: 350px;
+    height: 350px;
+}
+
+.item img {
+    width: 450px;
+    height: 500px;
+}
